@@ -1,0 +1,27 @@
+.tv-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tv-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.poster-wrapper {
+  overflow: hidden;
+}
+
+.poster-wrapper img {
+  transition: transform 0.4s ease;
+}
+
+.tv-card:hover .poster-wrapper img {
+  transform: scale(1.1);
+}
+
+.rating {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+}
